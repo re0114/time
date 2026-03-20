@@ -27,9 +27,9 @@ void loop() {
 
     // 串口输出状态（方便观察）
     if (ledState == HIGH) {
-      Serial.println("LED ON");
+      Serial.println(" ON");
     } else {
-      Serial.println("LED OFF");
+      Serial.println(" OFF");
     }
   }
 
