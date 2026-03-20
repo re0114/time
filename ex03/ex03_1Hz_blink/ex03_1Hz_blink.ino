@@ -15,6 +15,6 @@ void loop() {
     previousMillis = currentMillis;
     ledState = !ledState;
     digitalWrite(ledPin, ledState);
-    Serial.println(ledState ? "ON" : "OFF");
+    Serial.println(ledState ? "LED ON" : "LED OFF");
   }
 }
