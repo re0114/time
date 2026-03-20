@@ -1,4 +1,4 @@
-// 实验2：使用millis()实现1Hz LED闪烁
+// 实验2：使用millis()实现1Hz LED闪烁,非阻塞延迟
 const int ledPin = 2;          // ESP32板载LED通常为GPIO2
 
 unsigned long previousMillis = 0;
