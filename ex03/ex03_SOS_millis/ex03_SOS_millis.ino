@@ -6,7 +6,7 @@ const int dot = 200;          // 短闪时长
 const int dash = 600;         // 长闪时长
 const int intraCharGap = 200; // 同一字母内点划间隔
 const int interCharGap = 500; // 字母间间隔
-const int interWordGap = 2000;// 单词结束后停顿
+const int interWordGap = 2500;// 单词结束后停顿
 
 // SOS序列：正数表示亮灯时长，负数表示灭灯时长
 const int sosSequence[] = {
